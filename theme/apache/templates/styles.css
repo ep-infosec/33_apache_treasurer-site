@@ -1,0 +1,93 @@
+html {
+  font-size: 18px;
+}
+.markdown-body {
+  box-sizing: border-box;
+  min-width: 200px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 45px;
+}
+@media (max-width: 767px) {
+  .markdown-body {
+    padding: 15px;
+  }
+}
+.footer {
+  border-top: 1px solid black;
+  padding-top: 3px;
+}
+.right-align {
+  text-align: right;
+}
+.center-align {
+  text-align: center;
+}
+blockquote {
+  background: bisque;
+}
+.bg-primary {
+  background-color: #005bff!important;
+}
+a {
+  font-weight: 500;
+  color: #005bff;
+}
+li {
+  line-height: 2;
+ }
+.h1, h1 {
+  font-size: 1.5rem;
+}
+.h2, h2 {
+  font-size: 1.4rem;
+}
+.h3, h3 {
+  font-size: 1.3rem;
+}
+.h4, h4 {
+  font-size: 1.2rem;
+}
+.h5, h5 {
+  font-size: 1.1rem;
+}
+.panel-body {
+    padding:15px
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-top-left-radius: -1px;
+    border-top-right-radius:-1px
+}
+.panel-title {
+    margin-top: 0;
+    font-size: 1.3rem;
+}
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 0;
+  box-shadow: 0 1px 1px rgba(0,0,0,.5);
+}
+.panel-group .panel-heading {
+    border-bottom:0
+}
+.panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body {
+    border-top:1px solid #ddd
+}
+.panel-success {
+  border-color: #b7d2b3;
+}
+.panel-success > .panel-heading {
+    color: #4e844f;
+    background-color: #c3dbc3;
+    border-color:#b7d2b3
+}
+.panel-info {
+  border-color: #d6c6ec;
+}
+.panel-info > .panel-heading {
+    color: #662f8f;
+    background-color: #ede1f5;
+    border-color:#d6c6ec
+}
